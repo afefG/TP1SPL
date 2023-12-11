@@ -83,6 +83,8 @@ public class Calculator {
         return NaN;
     }
 
+
+
     
     public Double calculateMono(MonoOperatorModes newMode, Double num) {
         if (newMode == MonoOperatorModes.square) {
@@ -119,6 +121,7 @@ public class Calculator {
         if (newMode == MonoOperatorModes.rate) {
            return num / 100;
         }
+        
         if (newMode == MonoOperatorModes.abs){
             return Math.abs(num);
         }

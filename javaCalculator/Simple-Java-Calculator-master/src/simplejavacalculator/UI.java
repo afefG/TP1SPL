@@ -250,6 +250,7 @@ public class UI implements ActionListener {
          }
 
          if (source == butMinus) {
+            
             writer(calc.calculateBi(Calculator.BiOperatorModes.minus, reader()));
             text.replaceSelection(butMinus.getText());
          }
